@@ -13,18 +13,19 @@ You can try the app - *link*
 
 ## Project setup
 ```
-cd client/ && npm install
+cd client/ && npm install && npm run build
 cd ../api/ && npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run watch:dev
+cd client/ && npm run serve       // client
+cd ../api/ && npm run watch:dev   // Server(api)
 ```
 
 ### Compiles and minifies for production
 ```
-cd client/ && npm run build
-cd ../api && npm start
+// Make sure to run the command 'npm run build' in client folder
+cd api/ && npm start
 ```
 
