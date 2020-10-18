@@ -9,8 +9,6 @@ The app is divided to two parts :
 2. Marks the entrance of a vessel into the port.
 3. Marks the exit of a vessel (Assuming it's in the port)
 
-You can try the app - *link*
-
 ## Project setup
 ```
 cd client/ && npm install && npm run build
