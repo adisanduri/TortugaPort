@@ -5,7 +5,7 @@ import indexRouter from './routes/index';
 
 const app = express(),
     bodyParser = require("body-parser"),
-    port = 3000;
+    port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../../client/dist')));
