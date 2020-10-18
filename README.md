@@ -24,6 +24,7 @@ npm run watch:dev
 
 ### Compiles and minifies for production
 ```
-npm start
+cd client/ && npm run serve
+cd ../api && npm start
 ```
 
